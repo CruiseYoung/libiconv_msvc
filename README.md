@@ -31,20 +31,20 @@ the following structure:
     Dynamic:
 		Macro: #define LIBICONV_DLL
 		Debug:
-			lib: libiconvD.lib
-			dll: libiconvD.dll
-			pdb: libiconvD.pdb
+			lib: iconvD.lib
+			dll: iconvD.dll
+			pdb: iconvD.pdb
 		Release:
-			lib: libiconv.lib
-			dll: libiconv.dll
-			pdb: libiconv.pdb
+			lib: iconv.lib
+			dll: iconv.dll
+			pdb: iconv.pdb
 	
 	Static:
 		Debug:
-			lib: libiconvSD.lib
-			pdb: libiconvSD.pdb
+			lib: iconvSD.lib
+			pdb: iconvSD.pdb
 		Release:
-			lib: libiconvS.lib
-			pdb: libiconvS.pdb
+			lib: iconvS.lib
+			pdb: iconvS.pdb
 				 
 After this the iconv PHP(MSVS) extension can be built static or shared.
