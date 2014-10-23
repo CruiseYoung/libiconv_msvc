@@ -1,3 +1,3 @@
-#define LIBDIR "c:\\\\program files\\iconv"
-#define INSTALLPREFIX "c:\\\\program files\\iconv"
-#define INSTALLDIR "c:\\\\program files\\iconv"
+#define LIBDIR "c:\\iconv"
+#define INSTALLPREFIX "c:\\iconv"
+#define INSTALLDIR "c:\\iconv"
