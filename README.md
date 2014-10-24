@@ -3,7 +3,7 @@
 libiconv is a character set conversion library from
 [http://ftp.gnu.org/pub/gnu/libiconv/](http://ftp.gnu.org/pub/gnu/libiconv/)
 
-PHP(MSVS) currently uses 1.14 released 2011.08.07
+PHP(MSVC) currently uses 1.14 released 2011.08.07
 
 libiconv development has been moved to [https://savannah.gnu.org/projects/libi
 conv/](https://savannah.gnu.org/projects/libiconv/)
@@ -20,7 +20,7 @@ and errors.
 If someone has the time or energy the patch should probably be sent upstream
 to the bugs list.
 
-# Building for PHP(MSVS)
+# Building for PHP(MSVC)
 
 The solution has static and dll projects. Both of them have to be built in
 debug and release mode. The binaries have to be put into the deps tree with
@@ -47,4 +47,4 @@ the following structure:
 			lib: iconvS.lib
 			pdb: iconvS.pdb
 				 
-After this the iconv PHP(MSVS) extension can be built static or shared.
+After this the iconv PHP(MSVC) extension can be built static or shared.
